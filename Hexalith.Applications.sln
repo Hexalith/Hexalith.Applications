@@ -150,6 +150,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{401F4B14
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packages", "packages", "{C67B5007-8999-4638-8317-C6DA2F62D65C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hexalith.Applications.Commands.Abstractions", "src\libraries\Hexalith.Applications.Commands.Abstractions\Hexalith.Applications.Commands.Abstractions.csproj", "{263FF91A-AAE3-4AFE-8280-5EF357D876B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hexalith.Applications.Commands", "src\libraries\Hexalith.Applications.Commands\Hexalith.Applications.Commands.csproj", "{1C078EE2-5A01-5986-EF2F-BF70494BF26A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -172,6 +176,14 @@ Global
 		{CCA8A23F-D69E-76DE-5B35-3B61C3C9CE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCA8A23F-D69E-76DE-5B35-3B61C3C9CE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCA8A23F-D69E-76DE-5B35-3B61C3C9CE73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{263FF91A-AAE3-4AFE-8280-5EF357D876B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263FF91A-AAE3-4AFE-8280-5EF357D876B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263FF91A-AAE3-4AFE-8280-5EF357D876B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263FF91A-AAE3-4AFE-8280-5EF357D876B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C078EE2-5A01-5986-EF2F-BF70494BF26A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C078EE2-5A01-5986-EF2F-BF70494BF26A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C078EE2-5A01-5986-EF2F-BF70494BF26A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C078EE2-5A01-5986-EF2F-BF70494BF26A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -198,6 +210,8 @@ Global
 		{E8914570-4D90-4230-A8D0-06AD72AEA8DB} = {538F6CF8-F1A1-4584-BE2E-AF2418F61641}
 		{6B54B06C-EFB1-4EF2-A5C7-BB62E19E7643} = {538F6CF8-F1A1-4584-BE2E-AF2418F61641}
 		{401F4B14-7261-488A-A953-EDAE92B7C97C} = {DA4446BE-296C-40E4-B0FF-05F9AF0F2502}
+		{263FF91A-AAE3-4AFE-8280-5EF357D876B9} = {884D0EEB-6F10-4783-A58F-178A17DF1131}
+		{1C078EE2-5A01-5986-EF2F-BF70494BF26A} = {884D0EEB-6F10-4783-A58F-178A17DF1131}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B7376F4-B33A-4BC6-AFCA-C09B437568D7}

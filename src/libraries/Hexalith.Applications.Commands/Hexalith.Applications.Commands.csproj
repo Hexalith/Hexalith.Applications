@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Hexalith.Applications</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hexalith.Applications.Commands.Abstractions\Hexalith.Applications.Commands.Abstractions.csproj" />
+  </ItemGroup>
+</Project>
