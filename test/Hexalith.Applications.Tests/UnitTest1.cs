@@ -3,12 +3,12 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 // </copyright>
 
-namespace Hexalith.MyNewPackage.Tests;
+namespace Hexalith.Applications.Tests;
 
 using Shouldly;
 
 /// <summary>
-/// Initial unit tests for Hexalith.MyNewPackage.
+/// Initial unit tests for Hexalith.Applications.
 /// </summary>
 public static class UnitTest1
 {

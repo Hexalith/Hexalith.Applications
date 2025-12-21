@@ -18,10 +18,10 @@
   <Import Project="$(Hexalith3BuildBuildProps)" Condition="'$(HexalithBuildLoaded)' != 'true'" />
 
   <PropertyGroup>
-    <Product>Hexalith.MyNewPackage</Product>
-    <RepositoryUrl>https://github.com/Hexalith/Hexalith.MyNewPackage.git</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/Hexalith/Hexalith.MyNewPackage</PackageProjectUrl>
+    <Product>Hexalith.Applications</Product>
+    <RepositoryUrl>https://github.com/Hexalith/Hexalith.Applications.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Hexalith/Hexalith.Applications</PackageProjectUrl>
     <PackageTags>hexalith;</PackageTags>
-    <Description>Hexalith MyNewPackage Module</Description>
+    <Description>Hexalith Applications Module</Description>
   </PropertyGroup>
 </Project>

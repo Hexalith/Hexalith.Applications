@@ -1,19 +1,19 @@
-# Hexalith.MyNewPackage.Abstractions
+# Hexalith.Applications.Abstractions
 
 ## Overview
 
-This package contains the interface definitions and abstractions for Hexalith.MyNewPackage. It defines contracts that are implemented by the main `Hexalith.MyNewPackage` package.
+This package contains the interface definitions and abstractions for Hexalith.Applications. It defines contracts that are implemented by the main `Hexalith.Applications` package.
 
 ## Installation
 
 ```powershell
-dotnet add package Hexalith.MyNewPackage.Abstractions
+dotnet add package Hexalith.Applications.Abstractions
 ```
 
 Or via NuGet Package Manager:
 
 ```powershell
-Install-Package Hexalith.MyNewPackage.Abstractions
+Install-Package Hexalith.Applications.Abstractions
 ```
 
 ## Prerequisites
@@ -25,7 +25,7 @@ Install-Package Hexalith.MyNewPackage.Abstractions
 Reference this package when you only need the interface definitions without the concrete implementations:
 
 ```csharp
-using Hexalith.MyNewPackage;
+using Hexalith.Applications;
 
 public class MyService
 {

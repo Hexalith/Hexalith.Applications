@@ -1,6 +1,6 @@
 # Source Code
 
-This directory contains all source code for the Hexalith.MyNewPackage solution.
+This directory contains all source code for the Hexalith.Applications solution.
 
 ## Structure
 
@@ -13,12 +13,12 @@ This directory contains all source code for the Hexalith.MyNewPackage solution.
 
 ### Libraries
 
-- **Hexalith.MyNewPackage** - Main implementation package
-- **Hexalith.MyNewPackage.Abstractions** - Interface definitions and contracts
+- **Hexalith.Applications** - Main implementation package
+- **Hexalith.Applications.Abstractions** - Interface definitions and contracts
 
 ### Examples
 
-- **Hexalith.MyNewPackage.Example** - Console application demonstrating basic usage
+- **Hexalith.Applications.Example** - Console application demonstrating basic usage
 
 ## Building
 

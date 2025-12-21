@@ -1,28 +1,28 @@
-# Hexalith.MyNewPackage
+# Hexalith.Applications
 
 This is a template repository for creating new Hexalith packages. The repository provides a structured starting point for developing new packages within the Hexalith ecosystem.
 
 ## Build Status
 
-[![License: MIT](https://img.shields.io/github/license/hexalith/hexalith.MyNewPackage)](https://github.com/hexalith/hexalith/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/github/license/hexalith/hexalith.Applications)](https://github.com/hexalith/hexalith/blob/main/LICENSE)
 [![Discord](https://img.shields.io/discord/1063152441819942922?label=Discord&logo=discord&logoColor=white&color=d82679)](https://discordapp.com/channels/1102166958918610994/1102166958918610997)
 
-[![Coverity Scan Build Status](https://scan.coverity.com/projects/31529/badge.svg)](https://scan.coverity.com/projects/hexalith-hexalith-mynewpackage)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/d48f6d9ab9fb4776b6b4711fc556d1c4)](https://app.codacy.com/gh/Hexalith/Hexalith.MyNewPackage/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.MyNewPackage&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.MyNewPackage)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.MyNewPackage&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.MyNewPackage)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.MyNewPackage&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.MyNewPackage)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.MyNewPackage&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.MyNewPackage)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.MyNewPackage&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.MyNewPackage)
-[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.MyNewPackage&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.MyNewPackage)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.MyNewPackage&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.MyNewPackage)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.MyNewPackage&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.MyNewPackage)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.MyNewPackage&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.MyNewPackage)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.MyNewPackage&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.MyNewPackage)
+[![Coverity Scan Build Status](https://scan.coverity.com/projects/31529/badge.svg)](https://scan.coverity.com/projects/hexalith-hexalith-Applications)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/d48f6d9ab9fb4776b6b4711fc556d1c4)](https://app.codacy.com/gh/Hexalith/Hexalith.Applications/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.Applications&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.Applications)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.Applications&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.Applications)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.Applications&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.Applications)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.Applications&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.Applications)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.Applications&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.Applications)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.Applications&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.Applications)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.Applications&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.Applications)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.Applications&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.Applications)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.Applications&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.Applications)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Hexalith_Hexalith.Applications&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Hexalith_Hexalith.Applications)
 
-[![Build status](https://github.com/Hexalith/Hexalith.MyNewPackage/actions/workflows/build-release.yml/badge.svg)](https://github.com/Hexalith/Hexalith.MyNewPackage/actions)
-[![NuGet](https://img.shields.io/nuget/v/Hexalith.MyNewPackage.svg)](https://www.nuget.org/packages/Hexalith.MyNewPackage)
-[![Latest](https://img.shields.io/github/v/release/Hexalith/Hexalith.MyNewPackage?include_prereleases&label=latest)](https://github.com/Hexalith/Hexalith.MyNewPackage/pkgs/nuget/Hexalith.MyNewPackage)
+[![Build status](https://github.com/Hexalith/Hexalith.Applications/actions/workflows/build-release.yml/badge.svg)](https://github.com/Hexalith/Hexalith.Applications/actions)
+[![NuGet](https://img.shields.io/nuget/v/Hexalith.Applications.svg)](https://www.nuget.org/packages/Hexalith.Applications)
+[![Latest](https://img.shields.io/github/v/release/Hexalith/Hexalith.Applications?include_prereleases&label=latest)](https://github.com/Hexalith/Hexalith.Applications/pkgs/nuget/Hexalith.Applications)
 
 ## Overview
 
@@ -63,9 +63,9 @@ The package name will be "Hexalith.YourPackageName"
 
 This script will:
 
-- Replace all occurrences of "MyNewPackage" with your package name
-- Replace all occurrences of "mynewpackage" with the lowercase version of your package name
-- Rename directories and files that contain "MyNewPackage" in their name
+- Replace all occurrences of "Applications" with your package name
+- Replace all occurrences of "Applications" with the lowercase version of your package name
+- Rename directories and files that contain "Applications" in their name
 - Initialize and update Git submodules
 - Set up the project structure for your new package
 

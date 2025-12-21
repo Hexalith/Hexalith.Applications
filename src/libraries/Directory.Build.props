@@ -1,9 +1,9 @@
 <Project>
   <PropertyGroup>
-    <Description>Hexalith MyNewPackage utilities and helpers</Description>
-    <PackageProjectUrl>https://github.com/Hexalith/Hexalith.MyNewPackage</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/Hexalith/Hexalith.MyNewPackage</RepositoryUrl>
-    <PackageTags>Hexalith;MyNewPackage;</PackageTags>
+    <Description>Hexalith Applications utilities and helpers</Description>
+    <PackageProjectUrl>https://github.com/Hexalith/Hexalith.Applications</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Hexalith/Hexalith.Applications</RepositoryUrl>
+    <PackageTags>Hexalith;Applications;</PackageTags>
     <!-- Define a property to store the path of the parent Directory.Build.props. -->
     <ParentDirectoryBuildProps>$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))</ParentDirectoryBuildProps>
   </PropertyGroup>

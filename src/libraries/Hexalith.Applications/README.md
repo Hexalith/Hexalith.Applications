@@ -1,19 +1,19 @@
-# Hexalith.MyNewPackage
+# Hexalith.Applications
 
 ## Overview
 
-This is the main implementation package for Hexalith.MyNewPackage. It provides concrete implementations of the interfaces defined in `Hexalith.MyNewPackage.Abstractions`.
+This is the main implementation package for Hexalith.Applications. It provides concrete implementations of the interfaces defined in `Hexalith.Applications.Abstractions`.
 
 ## Installation
 
 ```powershell
-dotnet add package Hexalith.MyNewPackage
+dotnet add package Hexalith.Applications
 ```
 
 Or via NuGet Package Manager:
 
 ```powershell
-Install-Package Hexalith.MyNewPackage
+Install-Package Hexalith.Applications
 ```
 
 ## Prerequisites
@@ -23,7 +23,7 @@ Install-Package Hexalith.MyNewPackage
 ## Usage
 
 ```csharp
-using Hexalith.MyNewPackage;
+using Hexalith.Applications;
 
 // Create an instance of DummyClass
 var dummy = new DummyClass("Hello, World!");
@@ -36,7 +36,7 @@ Console.WriteLine(dummy.SampleValue);
 
 ## Dependencies
 
-- `Hexalith.MyNewPackage.Abstractions` - Interface definitions
+- `Hexalith.Applications.Abstractions` - Interface definitions
 
 ## Building
 

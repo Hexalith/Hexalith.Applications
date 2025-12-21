@@ -1,11 +1,11 @@
 {
-  "name": "hexalith-mynewpackage",
+  "name": "hexalith-Applications",
   "version": "0.0.0-development",
   "private": true,
-  "description": "Hexalith MyNewPackage libraries",
+  "description": "Hexalith Applications libraries",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Hexalith/Hexalith.MyNewPackage.git"
+    "url": "https://github.com/Hexalith/Hexalith.Applications.git"
   },
   "release": {
     "branches": [ "main" ]

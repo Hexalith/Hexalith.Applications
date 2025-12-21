@@ -11,7 +11,7 @@ Each project must have a corresponding test project with the naming convention:
 
 ## Test Projects
 
-- **Hexalith.MyNewPackage.Tests**: Unit tests for the main package
+- **Hexalith.Applications.Tests**: Unit tests for the main package
 
 ## Testing Framework
 
@@ -30,7 +30,7 @@ dotnet test
 Run tests for a specific project:
 
 ```powershell
-dotnet test ./test/Hexalith.MyNewPackage.Tests/Hexalith.MyNewPackage.Tests.csproj
+dotnet test ./test/Hexalith.Applications.Tests/Hexalith.Applications.Tests.csproj
 ```
 
 Run tests with detailed output:
