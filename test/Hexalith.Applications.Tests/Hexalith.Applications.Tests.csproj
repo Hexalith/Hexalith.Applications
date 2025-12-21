@@ -16,6 +16,8 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Moq" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
   </ItemGroup>
   <ItemGroup>
     <Using Include="Xunit" />
@@ -23,6 +25,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\libraries\Hexalith.Applications\Hexalith.Applications.csproj" />
+    <ProjectReference Include="..\..\src\libraries\Hexalith.Applications.Commands\Hexalith.Applications.Commands.csproj" />
+    <ProjectReference Include="..\..\src\libraries\Hexalith.Applications.Commands.Abstractions\Hexalith.Applications.Commands.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>
