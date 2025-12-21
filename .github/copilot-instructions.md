@@ -1,0 +1,1 @@
+Please read the `CLAUDE.md` file in the root of the repository to understand the project's coding standards, build commands, and structure. Always follow the guidelines and conventions defined in that file.
