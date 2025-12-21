@@ -9,8 +9,8 @@ using System.Runtime.Serialization;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-using Hexalith.Applications.Extensions;
 using Hexalith.Commons.Metadatas;
+using Hexalith.Commons.Objects;
 using Hexalith.PolymorphicSerializations;
 
 /// <summary>
