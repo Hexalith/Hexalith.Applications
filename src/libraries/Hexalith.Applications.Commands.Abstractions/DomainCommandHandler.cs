@@ -104,30 +104,30 @@ public abstract partial class DomainCommandHandler<TCommand> : IDomainCommandHan
             throw new CommandHandlerAggregateNullException(metadata);
         }
 
-        if (aggregate.AggregateName != metadata.Message.Domain.Name)
+        if (aggregate.DomainName != metadata.Message.Domain.Name)
         {
-            LogAggregateNameMismatchError(
-                aggregate.AggregateName,
+            LogDomainNameMismatchError(
+                aggregate.DomainName,
                 metadata.Message.Name,
                 metadata.DomainGlobalId,
-                aggregate.AggregateName,
+                aggregate.DomainName,
                 metadata.Message.Id,
                 metadata.Context.CorrelationId,
                 metadata.Context.UserId);
-            throw new CommandHandlerAggregateNameMismatchException(aggregate.AggregateName, metadata);
+            throw new CommandHandlerAggregateNameMismatchException(aggregate.DomainName, metadata);
         }
 
-        if (aggregate.AggregateId != metadata.Message.Domain.Id)
+        if (aggregate.DomainId != metadata.Message.Domain.Id)
         {
-            LogAggregateIdMismatchError(
-                aggregate.AggregateId,
+            LogDomainIdMismatchError(
+                aggregate.DomainId,
                 metadata.Message.Name,
                 metadata.DomainGlobalId,
-                aggregate.AggregateId,
+                aggregate.DomainId,
                 metadata.Message.Id,
                 metadata.Context.CorrelationId,
                 metadata.Context.UserId);
-            throw new CommandHandlerAggregateIdentifierMismatchException(aggregate.AggregateId, metadata);
+            throw new CommandHandlerAggregateIdentifierMismatchException(aggregate.DomainId, metadata);
         }
 
         return (TAggregate)aggregate;
@@ -142,34 +142,6 @@ public abstract partial class DomainCommandHandler<TCommand> : IDomainCommandHan
     private static TCommand ToCommand(object command) => command is TCommand c
             ? c
             : throw new ArgumentException($"Invalid command type. Expected: {typeof(TCommand).Name}. Command: {JsonSerializer.Serialize(command)}", nameof(command));
-
-    [LoggerMessage(
-        EventId = 5,
-        Level = LogLevel.Error,
-        Message = "Aggregate ID mismatch for command '{CommandName}' on aggregate '{DomainGlobalId}'." +
-        " Expected='{ExpectedAggregateId}'; Actual='{ActualId}'; MessageId='{MessageId}'; CorrelationId='{CorrelationId}'; UserId='{UserId}'.")]
-    private partial void LogAggregateIdMismatchError(
-        string actualId,
-        string commandName,
-        string domainGlobalId,
-        string expectedAggregateId,
-        string messageId,
-        string correlationId,
-        string userId);
-
-    [LoggerMessage(
-        EventId = 4,
-        Level = LogLevel.Error,
-        Message = "Aggregate name mismatch for command {CommandName} on aggregate {DomainGlobalId}." +
-        " Expected='{ExpectedAggregateName}'; Actual='{ActualName}'; MessageId='{MessageId}'; CorrelationId='{CorrelationId}'; UserId='{UserId}'.")]
-    private partial void LogAggregateNameMismatchError(
-        string actualName,
-        string commandName,
-        string domainGlobalId,
-        string expectedAggregateName,
-        string messageId,
-        string correlationId,
-        string userId);
 
     [LoggerMessage(
         EventId = 3,
@@ -200,6 +172,34 @@ public abstract partial class DomainCommandHandler<TCommand> : IDomainCommandHan
     private partial void LogCommandFailed(
         string commandName,
         string domainGlobalId,
+        string messageId,
+        string correlationId,
+        string userId);
+
+    [LoggerMessage(
+                    EventId = 5,
+        Level = LogLevel.Error,
+        Message = "Aggregate ID mismatch for command '{CommandName}' on aggregate '{DomainGlobalId}'." +
+        " Expected='{ExpectedDomainId}'; Actual='{ActualId}'; MessageId='{MessageId}'; CorrelationId='{CorrelationId}'; UserId='{UserId}'.")]
+    private partial void LogDomainIdMismatchError(
+        string actualId,
+        string commandName,
+        string domainGlobalId,
+        string expectedDomainId,
+        string messageId,
+        string correlationId,
+        string userId);
+
+    [LoggerMessage(
+        EventId = 4,
+        Level = LogLevel.Error,
+        Message = "Aggregate name mismatch for command {CommandName} on aggregate {DomainGlobalId}." +
+        " Expected='{ExpectedDomainName}'; Actual='{ActualName}'; MessageId='{MessageId}'; CorrelationId='{CorrelationId}'; UserId='{UserId}'.")]
+    private partial void LogDomainNameMismatchError(
+        string actualName,
+        string commandName,
+        string domainGlobalId,
+        string expectedDomainName,
         string messageId,
         string correlationId,
         string userId);

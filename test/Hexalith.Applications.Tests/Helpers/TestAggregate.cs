@@ -28,16 +28,16 @@ internal sealed class TestAggregate(
     IEnumerable<object>? messages) : IDomainAggregate
 {
     /// <inheritdoc/>
-    public string AggregateId { get; } = aggregateId;
+    public string DomainId { get; } = aggregateId;
 
     /// <inheritdoc/>
-    public string AggregateName { get; } = aggregateName;
-
-    private bool IsInitializedFlag { get; } = initialized;
+    public string DomainName { get; } = aggregateName;
 
     private bool FailOnApplyFlag { get; } = failOnApply;
 
     private string? FailureReasonValue { get; } = failureReason;
+
+    private bool IsInitializedFlag { get; } = initialized;
 
     private IEnumerable<object> MessagesValue { get; } = messages ?? [];
 
