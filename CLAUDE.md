@@ -1,2 +1,3 @@
-# AI Instractions
-Read the following instructions in [Hexalith AI instructions](./Hexalith.Builds/CLAUDE.md) carefully 
+# AI Instructions
+
+Please read and follow the instructions in [Hexalith.Builds/CLAUDE.md](./Hexalith.Builds/CLAUDE.md) for coding standards, build commands, and project conventions.
